@@ -1,0 +1,66 @@
+/* Estilos globales */
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd; /* Color de fondo suave, azul claro similar al cielo despejado */
+    color: #0288d1; /* Color del texto, azul oscuro */
+    display: flex;
+    background-image: url('imagen.jpg');
+    justify-content: center;
+    background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen en el viewport */
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+}
+
+h1 {
+    color: #0288d1; /* Color del título, azul oscuro */
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #0288d1;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+    border-color: #01579b; 
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0288d1; 
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #01579b; 
+}
